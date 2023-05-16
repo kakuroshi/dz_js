@@ -1,0 +1,185 @@
+.body {
+  background-color: rgb(250, 225, 195);
+}
+
+.studentAddBtn {
+  background-color: burlywood;
+  width: 25vh;
+  height: 5vh;
+  font-size: 20px;
+}
+
+.search {
+  position: absolute;
+  left: 31%;
+  margin: 2vh;
+  text-align: center;
+  max-width: 70vh;
+}
+
+.fioSearch{
+  width: 60vh;
+  height: 3vh;
+}
+
+.birthdaySearch{
+  width: 60vh;
+  height: 3vh;
+}
+
+.yearSearch{
+  width: 60vh;
+  height: 3vh;
+}
+
+.facultySearch{
+  width: 60vh;
+  height: 3vh;
+}
+
+.fioSort{
+  width: 15vh;
+  height: 5vh;
+  background-color: rgb(133, 190, 99);
+  font-size: medium;
+}
+
+.birthdSort{
+  width: 15vh;
+  height: 5vh;
+  background-color: rgb(133, 190, 99);
+  font-size: medium;
+}
+
+.yearSort {
+  width: 15vh;
+  height: 5vh;
+  background-color: rgb(133, 190, 99);
+  font-size: medium;
+}
+
+.facultySort{
+  width: 15vh;
+  height: 5vh;
+  background-color: rgb(133, 190, 99);
+  font-size: medium;
+}
+
+.errorFIo {
+  max-width: 50vh;
+  margin: 2vh;
+}
+
+.errorBirthday {
+  margin: 2vh;
+}
+
+.errorYear {
+  margin: 2vh;
+}
+
+.errorFaculty {
+  margin: 2vh;
+}
+
+.FIO {
+  width: 60vh;
+  height: 3vh;
+}
+
+.FIO.err {
+  border-color: red;
+}
+
+.birthday {
+  width: 60vh;
+  height: 3vh;
+}
+
+.birthday.err {
+  border-color: red;
+}
+
+.year {
+  width: 60vh;
+  height: 3vh;
+}
+
+.year.err {
+  border-color: red;
+}
+
+.faculty {
+  width: 60vh;
+  height: 3vh;
+}
+
+.faculty.err {
+  border-color: red;
+}
+
+.ready {
+  background-color: burlywood;
+  width: 15vh;
+  height: 3vh;
+  font-size: 20px;
+}
+
+.cancel {
+  background-color: burlywood;
+  width: 15vh;
+  height: 3vh;
+  font-size: 20px;
+}
+
+.tableDiv {
+  position: absolute;
+  left: 23%;
+  top: 35vh;
+  max-width: 110vh;
+  text-align: center;
+}
+
+.table {
+  background-color: black;
+  font-size: 30px;
+}
+
+.fill {
+  background-color: rgb(250, 225, 195);
+  margin: 2vh;
+}
+
+.modal {
+  position: fixed;
+  left: 26%;
+  top: 10%;
+  width: 100vh;
+  height: 70vh;
+  z-index: 1;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  background-color: rgb(238, 238, 210, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s, visibility 0.4s;
+}
+
+.modal_box {
+  width: 75vh;
+  height: 50vh;
+  padding: 45px;
+  z-index: 1;
+  margin: 30px 15px;
+  background-color: rgb(238, 238, 210, 0.4);
+  box-shadow: 0px 0px 17px -7px rgba(34, 60, 80, 0.2);
+  text-align: center;
+}
+
+.modal.open {
+  visibility: visible;
+  opacity: 1;
+}
+

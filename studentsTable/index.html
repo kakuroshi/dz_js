@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="body">
+    <div class="btnAddStd">
+      <button class="studentAddBtn">Добавить студента</button>
+    </div>
+    <div class="search">
+      <h1>Поиск:</h1>
+      <input type="text" class="fioSearch" placeholder="Введите фио...">
+      <input type="date" min="1900-01-01" class="birthdaySearch">
+      <input type="number" class="yearSearch" placeholder="Введите год...">
+      <input type="text" class="facultySearch" placeholder="Введите факультет...">
+    </div>
+    <div class="modal">
+      <div class="modal_box">
+        <div class="modal_inputs">
+          <h1 class="form">Форма</h1>
+          <div class="errorFIO">
+            <input class="FIO" type="text" placeholder="Введите ФИО" />
+          </div>
+          <div class="errorBirthday">
+            <input
+              class="birthday"
+              type="date"
+              min="1900-01-01"
+              placeholder="Введите дату рождения"
+            />
+          </div>
+          <div class="errorYear">
+            <input
+              class="year"
+              type="number"
+              placeholder="Введите год начала обучения"
+            />
+          </div>
+          <div class="errorFaculty">
+            <input
+              class="faculty"
+              type="text"
+              placeholder="Введите факультет"
+            />
+          </div>
+        </div>
+        <div class="modal_button">
+          <button class="ready" type="submit">Готово</button>
+          <button class="cancel">Отмена</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
