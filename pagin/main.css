@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    font-family: 'Geologica', sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+.button {
+    margin: 2vh;
+    width: 6vh;
+    height: 3vh;
+    background-color:darkkhaki
+}
+
+.articleDiv {
+    margin-bottom: 2vh;
+}
+
+.articleBody {
+    font-size: large;
+}
+
+.previousPage {
+    width: 5vh;
+    height: 5vh;
+}
+
+.nextPage {
+    width: 5vh;
+    height: 5vh;
+}
+
+.title {
+    border: 3px solid black;
+}
+
+.titlePage {
+    margin: 5vh;
+}
+
+.bodyPage {
+    font-size: large;
+    margin-bottom: 5vh;
+}
+
+.back{
+    color: blue;
+}
+
+body {
+    padding: 3vh;
+}
